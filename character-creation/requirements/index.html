@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Requirements</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../assets/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Scripts -->
+    <script src="../../assets/scripts.js"></script>
+
+    <style>
+      button:active {
+        background: #8A8C84;
+        -webkit-box-shadow: inset 0px 0px 5px #60605C;
+        -moz-box-shadow: inset 0px 0px 5px #60605C;
+        box-shadow: inset 0px 0px 5px #60605C;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="nav" id="nav">
+      <h2><a href="../.."><img src="../../assets/images/comet_temp.png" class="logo-mini"></a>CHARACTER CREATION</h2>
+      <div class="desc">
+        All that's fit to know about what is and isn't allowed for characters within this campaign. This also includes how to apply to the roleplay and what to expect when you do!
+      </div>
+
+      <h4>SETTING</h4>
+      <ul>
+        <li><a href="../../setting/the-world/">The World</a></li>
+        <li><a href="../../setting/spirits/">Spirits</a></li>
+        <li><a href="../../setting/keepers/">Keepers</a></li>
+      </ul>
+      <h4>GAMEPLAY</h4>
+      <ul>
+        <li><a href="../../gameplay/rules/">Rules</a></li>
+        <li><a href="../../gameplay/campaign-structure/">Campaign Structure</a></li>
+        <li><a href="../../gameplay/mechanics/">Mechanics</a></li>
+        <li><a href="../../gameplay/faq/">F.A.Q</a></li>
+      </ul>
+      <h4>CHARACTER CREATION</h4>
+      <ul>
+        <li><a href="../../character-creation/how-to-apply/">How To Apply</a></li>
+        <li><a href="../../character-creation/requirements/" class="selected">Requirements</a></li>
+        <li><a href="../../character-creation/guidelines/">Guidelines</a></li>
+      </ul>
+      <h4>SOUL POWERS</h4>
+      <ul>
+        <li><a href="../../soul-powers/soul-classes/">Soul Classes</a></li>
+        <li><a href="../../soul-powers/leveling-up/">Leveling Up</a></li>
+        <li><a href="../../soul-powers/soul-shades/">Soul Shades</a></li>
+        <li><a href="../../soul-powers/alignments/">Alignments</a></li>
+        <br>
+        <li><a href="../../credits">Credits</a></li>
+      </ul>
+      <div class="copyright">© 2022 Foxichor & Narabas</div>
+    </div>
+    <div class="content">
+      <div class="content-info wider">
+        <h1>Requirements</h1>
+        In order to apply for this campaign, you'll need to complete both parts of the application and post them somewhere that you can externally link them, such as DeviantArt, Tumblr, Dropbox, Toyhouse, Google Docs, etc. If you need help finding somewhere you can post them, feel free to reach out to your GM and they'll get you set up!
+        <p>Keep in mind that this isn't a first come, first serve Campaign. In the event that the number of applications surpasses the number of open slots for the Campaign, participants will then be chosen by the GM based on which characters they feel will best fit the Campaign itself.</p>
+        <p>Good luck!</p>
+        <div style="text-align:center;">
+          <h5>VISUAL APP</h5>
+          <a href="https://drive.google.com/drive/folders/1AyPI7UQMCjRYDFH256EK3P59iwYWvjIf"><img src="../../assets/images/TPE_VISUAL_APPLICATION-PREVIEW.png" width="50%"></a>
+          <br>
+          <p>Character art on applications can be your own, commissioned, or colored lineart as long as proper credit is given.</p>
+        </div>
+        <br><br>
+        <h5>WRITTEN APP</h5> <button onclick="copyWrittenAppReq()" style="background: #d2d4c8;border: none;padding: 5px 10px;font-family: 'Lato', sans-serif;font-weight: bold;">COPY WRITTEN APP</button>
+        <p><b>Name:</b> <span style="user-select:none;opacity:0.5;">The name they currently go by.</span></p>
+        <p><b>Name Meaning:</b> <span style="user-select:none;opacity:0.5;">The meaning of the name itself, if any, and also why they were named that/named themselves that.</span></p>
+        <p><b>Former Names:</b> <span style="user-select:none;opacity:0.5;">Any names they used to be called.</span></p>
+        <p><b>Gender:</b> <span style="user-select:none;opacity:0.5;">How they identify.</span></p>
+        <p><b>Pronouns:</b> <span style="user-select:none;opacity:0.5;">What are acceptable and preferred pronouns for them.</span></p>
+        <p><b>Starting Age:</b> <span style="user-select:none;opacity:0.5;">The age they were when the campaign started.</span></p>
+        <p><b>Current Age:</b> <span style="user-select:none;opacity:0.5;">The age they are now. It will be the same as the Starting Age currently.</span></p>
+        <p><b>Last Bio Update:</b> <span style="user-select:none;opacity:0.5;">The date you last updated the bio.</span></p>
+        <p><b>Stats:</b> <span style="user-select:none;opacity:0.5;">An assigned value for all six stats (Strength, Dexterity, Constitution, Wisdom, Intelligence, Charisma), with a max of 10 per stat. Everyone starts with 25 total points to spend on their stats, with more to be gained during the course of the campaign. More information on stats can be found on the <a href="../../gameplay/mechanics/">Gameplay Mechanics</a> page.</span></p>
+        <p><b>Soul Class:</b> <span style="user-select:none;opacity:0.5;">At the start of the campaign, this should be filled out as Unknown or N/A. Please don't tell me, the GM, which Soul Class you prefer for your character, or which one that you believe they will be! I'd rather not be influenced when it comes to making Soul Class decisions if I can help it.</span></p>
+        <p><b>Soul Level:</b> <span style="user-select:none;opacity:0.5;">At the start of the campaign, this should be filled out as 0.</span></p>
+        <p><b>Soul Shade:</b> <span style="user-select:none;opacity:0.5;">This shouldn't be filled out until the very end of the campaign, once you've found your Soul Partner(s), but it's nice to have a space for it nonetheless.</span></p>
+        <p><b>Soul Partner(s):</b> <span style="user-select:none;opacity:0.5;">At the start of the campaign, this should be filled out as Unknown or N/A.</span></p>
+        <p><b>Strengths:</b> <span style="user-select:none;opacity:0.5;">List 3 things your cat is good at. Make sure they have practical applications.</span></p>
+        <p><b>Weaknesses:</b> <span style="user-select:none;opacity:0.5;">List 3 things your cat is bad at. Make sure they have practical applications.</span></p>
+        <p><b>Height/Weight:</b> <span style="user-select:none;opacity:0.5;">Can be listed in actual terms (9"/ 9 lbs) or loose terms (Average/Average).</span></p>
+        <p><b>Appearance:</b> <span style="user-select:none;opacity:0.5;">No length requirement, but please try to include a little about their build, pelt, colors, eyes, and scars. You can break this up into multiple sections if you prefer.</span></p>
+        <p><b>Accessories:</b> <span style="user-select:none;opacity:0.5;">What kind of accessories they have, if any at all.</span></p>
+        <p><b>Health:</b> <span style="user-select:none;opacity:0.5;">A snapshot of what their overall health is like.</span></p>
+        <p><b>Disabilities:</b> <span style="user-select:none;opacity:0.5;"> List any disabilities they have, whether physical or mental, and how they affect the character.</span></p>
+        <p><b>Personality:</b> <span style="user-select:none;opacity:0.5;">Can be listed traits (3 positive, 3 neutral, 3 negative), or written with at least 2 to 3 sentences. You can do both, too.</span></p>
+        <p><b>Family:</b> <span style="user-select:none;opacity:0.5;">All known and unknown immediate family. Please specify if any of these family members are going to be played by someone seeking to join the campaign.</span></p>
+        <p><b>Friends & Enemies:</b> <span style="user-select:none;opacity:0.5;">Any known friends and enemies outside of your character's family. Please specify if any of these friends or enemies are going to be played by someone seeking to join the campaign.</span></p>
+        <p><b>Love Life:</b> <span style="user-select:none;opacity:0.5;">Any crushes? Dating? Exes? Current romantic partners? List it here. Please specify if any of these current/past romantic interests are going to be played by someone seeking to join the campaign.</span></p>
+        <p><b>History:</b> <span style="user-select:none;opacity:0.5;">Your character's history, which should end with them falling asleep after finding the star fragment, and hearing that voice in their dreams. Please summarize and/or bullet point the history in another section if you personally feel like it's too long as is.</span></p>
+        <p><b>Exclusions:</b> <span style="user-select:none;opacity:0.5;">Any characters or events in your character's backstory that you want to have excluded from GM use throughout the Campaign. This will not affect your admission into the Campaign, and you can have as many or as little as you want.</span></p>
+        <p><b>Writing Sample:</b> <span style="user-select:none;opacity:0.5;">Just an example of your writing. It doesn't have to be the character you're applying with, and it doesn't have to be long.</span></p>
+        <br>
+        <p>Feel free to elaborate as much as you want on any section, and to add more sections, or move sections around with formatting. Have fun with it! I can't wait to see the kinds of characters you guys apply with.</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    function copyWrittenAppReq() {
+      navigator.clipboard.writeText("Name:\nName Meaning: \nFormer Names: \n \nGender: \nPronouns: \n \nStarting Age: \nCurrent Age: \n \nLast Bio Update: \n \nStats: \n \nSoul Class: \nSoul Level: \nSoul Shade: \nSoul Partner(s): \n \nStrengths: \nWeaknesses: \n \nHeight/Weight: \nAppearance: \nAccessories: \nHealth: \nDisabilities: \n \nPersonality: \n \nFamily: \nFriends & Enemies: \nLove Life: \n \nHistory: \n \nExclusions: \n \nWriting Sample:\n");
+
+    }
+
+  </script>
+</html>
