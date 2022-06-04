@@ -80,4 +80,22 @@
   </div>
 </body>
 
+    <script>
+      jQuery(function($) {
+        $('.content').on('scroll', function() {
+          if ($(this).scrollTop() +
+            $(this).innerHeight() >=
+            $(this)[0].scrollHeight) {
+
+            alert('🟣 The falcon flies as far south as it can go, carrying with it secrets soon to be known.\n\n When found, please ping Fox. (;');
+          }
+        });
+      });
+
+    </script>
+
 </html>
+
+<!-- A single revolution around the sun. -->
+<!-- Do you think you know all of it's secrets yet? -->
+<!-- https://docs.google.com/document/d/1KJeF8uiSnqochOujjRZj_Rrey-67Zh-2IF-53NGdRW0/ -->
