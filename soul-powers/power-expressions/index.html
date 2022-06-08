@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Power Expressions</title>
+  <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../../assets/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Scripts -->
+  <script src="../../assets/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</head>
+
+<body>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("/nav.html", function () {
+        $("#soul-powers").attr("style", "display:block;");
+        $("#power-expressions").addClass("selected");
+      })
+    });
+  </script>
+
+  <div id="nav-placeholder">
+  </div>
+
+  <div class="content">
+    <div class="content-info wider">
+      <h1>Power Expressions</h1>
+
+      <p>One of the few mechanics unique to The Paradise Effect are what's called Power Expressions, or Expressions of
+        Power, whichever way you want to say it. These mechanics are very simple and very personalized to each
+        character, but make sure to read this entire page before considering what you may want for your character going
+        forward!</p>
+      <p>So, what <i>are</i> Power Expressions?</p>
+      <p>Simply put they're a way for your character to have a more personalized experience within their own Soul Class.
+        Every character will have <b>one</b> Power Expression, and once chosen, they <b>cannot</b> be changed.</p>
+      <p>Power Expressions fall into two categories:</p>
+      <br>
+      <p>
+      <h5>Internal</h5>
+      Internal Power Expressions tend to be a single extra ability that your character has that is not already
+      covered within their powers, or an extra boost to powers that are already there. Examples of Internal Power
+      Expressions will be added once more information has come out pertaining to each Class's abilities.</p>
+      <br>
+      <p>
+      <h5>External</h5>
+      External Power Expressions are usually aesthetic, but can also be functional. </p>
+      <p>Think of it like wings on a Green Soul or a Black Soul so pitch dark they look like they're sporting vantablack
+        fur, a Blue Soul with fins, a Purple Soul with permanent frost markings, or a Red Soul with dragon-like spines
+        on their back. As long as it pertains to their powers it's possible!</p>
+      <br>
+      <hr><br>
+      <p>Players will not be able to select a Power Expression until your character is officially Level 3 (after having
+        leveled up three times), so there's plenty of time for you to think it over before deciding. However, once
+        you're sure you know what you want, you can either open a ticket or DM your GM to let them know! Your choice
+        will be logged in a Google Sheets and again, <b>cannot</b> be changed once chosen.</p>
+      <br>
+    </div>
+  </div>
+</body>
+
+</html>
