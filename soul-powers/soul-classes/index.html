@@ -14,47 +14,26 @@
 
   <!-- Scripts -->
   <script src="../../assets/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
 <body>
   <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
     <i class="fa fa-bars"></i>
   </a>
-  <div class="nav" id="nav">
-    <h2><a href="../.."><img src="../../assets/images/comet_temp.png" class="logo-mini"></a>SOUL POWERS</h2>
-    <div class="desc">
-      Learn about the Soul Classes and their individual abilities, how to level up your characters and what it means to
-      have a Soul Partner and to Align. All of that and more can be found here!</div>
-
-    <h4>SETTING</h4>
-    <ul>
-      <li><a href="../../setting/the-world/">The World</a></li>
-      <li><a href="../../setting/spirits/">Spirits</a></li>
-      <li><a href="../../setting/keepers/">Keepers</a></li>
-    </ul>
-    <h4>GAMEPLAY</h4>
-    <ul>
-      <li><a href="../../gameplay/rules/">Rules</a></li>
-      <li><a href="../../gameplay/mechanics/">Mechanics</a></li>
-      <li><a href="../../gameplay/campaign-structure/">Campaign Structure</a></li>
-      <li><a href="../../gameplay/character-guidelines/">Character Guidelines</a></li>
-      <li><a href="../../gameplay/faq/">F.A.Q</a></li>
-    </ul>
-    <h4>CHARACTERS</h4>
-    <ul>
-      <li><a href="../../characters/roster/">Roster</a></li>
-    </ul>
-    <h4>SOUL POWERS</h4>
-    <ul>
-      <li><a href="../../soul-powers/soul-classes/" class="selected">Soul Classes</a></li>
-      <li><a href="../../soul-powers/leveling-up/">Leveling Up</a></li>
-      <li><a href="../../soul-powers/soul-shades/">Soul Shades</a></li>
-      <li><a href="../../soul-powers/alignments/">Alignments</a></li>
-      <br>
-      <li><a href="../../credits">Credits</a></li>
-    </ul>
-    <div class="copyright">© 2022 Foxichor & Narabas</div>
+  
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("/nav.html", function () {
+        $("#soul-powers").attr("style","display:block;");
+        $("#soul-classes").addClass("selected");
+      })
+    });
+  </script>
+  
+  <div id="nav-placeholder">
   </div>
+  
   <div class="content">
     <h1>Soul Classes</h1>
     Every Soul has a color, and each color designates abilities that that soul can utilize in their everyday lives, for
