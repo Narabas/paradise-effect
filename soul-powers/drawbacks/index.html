@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drawbacks</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../assets/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Scripts -->
+    <script src="../../assets/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <style>
+        .side-effect {
+            padding: 10px;
+            background: #e0e2db;
+            color: #222;
+            margin: 5px;
+            display: flex;
+        }
+
+        .side-effect-label {
+            padding: 10px 20px;
+            margin: -10px 10px -10px -10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/nav.html", function () {
+                $("#soul-powers").attr("style", "display:block;");
+                $("#drawbacks").addClass("selected");
+            })
+        });
+    </script>
+
+    <div id="nav-placeholder">
+    </div>
+
+    <div class="content">
+        <div class="content-info wider">
+            <h1>Drawbacks</h1>
+            <p>Ah yes, not everything can be good now, can it?</p>
+            <p>In addition to all of these fun new powers and capabilities, there will be drawbacks as well. Drawbacks,
+                by definition, will be mechanics that will actively hinder and hold back characters while they attempt
+                to use their powers and progress through the campaign. For now there are two distinct types of
+                Drawbacks, and those are–</p>
+            <br>
+            <h5>Side Effects</h5>
+            First introduced in Paradise Rising, side effects are intrusive, personal issues that crop up as a result
+            of a character having a certain Soul Class. As they level up and grow stronger, these Side Effects are
+            known to grow more apparent, more intrusive, and more frequent, but once characters Soulroot at or near
+            the end of the campaign, these Side Effects will dissipate entirely.
+            <p>How much or how little a character leans into these Side Effects is determined by their player, but the
+                GM may also utilize them as prompts in Checkpoints as an added challenge.</p>
+
+            <div class="side-effect">
+                <div class="side-effect-label" style="background:#A59EA9;">
+                    <h5><br>
+                        PURPLE
+                    </h5>
+                </div>
+                Due to the distant and aloof nature of Purple Souls, they can be prone to closing themselves off and
+                acting without regard for others, especially at higher levels. They're known to choose self-survival
+                over empathy or compassion.
+            </div>
+
+            <div class="side-effect">
+                <div class="side-effect-label" style="background:#A8908A;">
+                    <h5><br>
+                        RED
+                    </h5>
+                </div>
+                Due to the temperamental and stubborn nature of Red Souls, they can be prone to emotional outbursts and
+                extreme fits of rage, especially at higher levels. They're known to overreact and lash out in the heat
+                of the moment.
+            </div>
+
+            <div class="side-effect">
+                <div class="side-effect-label">
+                    <h5><br>
+                        ???
+                    </h5>
+                </div>
+                Due to the overbearing and meddling nature of ??? Souls, they can be prone to controlling those around
+                them and rejecting any authority that is not their own, especially at higher levels. They're known to
+                use whatever means necessary to get their way.
+            </div>
+
+            <div class="side-effect">
+                <div class="side-effect-label" style="background:#9EAB8F;">
+                    <h5><br>
+                        GREEN
+                    </h5>
+                </div>
+                Due to the self-sacrificial and meek nature of Green Souls, they can be prone to losing themselves in
+                their pursuit of saving others, especially at higher levels. They're known to ignore their own
+                well-being to extreme degrees.
+            </div>
+
+            <div class="side-effect">
+                <div class="side-effect-label" style="background:#929AA4;">
+                    <h5><br>
+                        BLUE
+                    </h5>
+                </div>
+                Due to the capricious and cautious nature of Blue Souls, they can be prone to deep levels of mistrust
+                and manipulation of others, especially at higher levels. They're known to change tactics on a dime,
+                garnering them a reputation of being two-faced.
+            </div>
+
+            <div class="side-effect">
+                <div class="side-effect-label" style="background:#8D8F88;">
+                    <h5><br>
+                        BLACK
+                    </h5>
+                </div>
+                Due to the short-sighted and absolutist nature of Black Souls, they can be prone to casting extreme
+                judgment on others without exception, especially at higher levels. They're known to shun those around
+                them, never finding someone who fits their ideals completely.
+            </div>
+
+            <br><br>
+            <h5>Power Overuse</h5>
+            <p>Just like characters can't run faster than they've trained to run, powers cannot be used too far removed
+                from where a character's actual capabilities lie.</p>
+            <p>At max, a character can only use powers <b>3 levels higher</b> than their own. This means, at the start
+                of the Campaign, all characters can only use <b>up to</b> Level 3 powers, if their corresponding Soul
+                Class stat allows for it. </p>
+            <p>As it was briefly touched upon on the Leveling Up page, all characters will start the Campaign at Level 0
+                and will have to grow up to Level 5 throughout the Campaign either through leveling up during a Chapter
+                via the 10 posts, submitting level up prompts during Interims, or some mix. That said, there is
+                something to be said for characters who share a Soul Class, but who have different starting stats within
+                that Soul Class. In general, those who have a higher corresponding Soul Class stat will have access to
+                higher level powers right off the bat. This is true for this Campaign as well, but there will be risks
+                involved.</p>
+            <p>In addition to these personal Drawbacks, there's also an enhanced probability for power usage to go wonky
+                when attempting to use more power than you have, so use your powers wisely!</p>
+            <p>Here's a chart of the ramifications of using higher leveled powers:</p>
+
+            <div class="side-effect">
+                <div align="left">
+                    <p><b>Using 1 Level Higher</b></p>
+                </div>
+                <div>
+                    <p>Your character feels light-headed, sore, and weak in the paws. </p>
+                    <p>For two posts <b>after</b> your post, your character will not be able to attack, flee, or dodge
+                        with any success. These posts don't have to be your own, they can be posts from your teammates
+                        as well.</p>
+                    <p>You can only use powers 1 Level Higher than your own 3 times per Chapter, your Soul Class stat
+                        permitting.</p>
+                </div>
+            </div>
+            <div class="side-effect">
+                <div align="left">
+                    <p><b>Using 2 Levels Higher</b></p>
+                </div>
+                <div>
+                    <p>Your character feels dizzy and sore, and they immediately crumple to the ground after they use
+                        their powers. </p>
+                    <p>For four posts <b>after</b> your post, your character will not be able to attack, flee, or dodge
+                        with any success. These posts don't have to be your own, they can be posts from your teammates
+                        as well.</p>
+                    <p>You can only use powers 2 Levels Higher than your own 2 times per Chapter, your Soul Class stat
+                        permitting.</p>
+                </div>
+            </div>
+            <div class="side-effect">
+                <div align="left">
+                    <p><b>Using 3 Levels Higher</b></p>
+                </div>
+                <div>
+                    <p>Your character immediately passes out after use, and wakes up feeling nauseous, exhausted, and
+                        very sore. </p>
+                    <p>For four posts <b>after</b> your post, your character will not be able to wake up from
+                        unconsciousness. These posts don't have to be your own, they can be posts from your teammates as
+                        well.</p>
+                    <p>You can only use powers 3 Levels Higher than your own 1 time per Chapter, your Soul Class stat
+                        permitting</p>
+                </div>
+            </div>
+            <p><b>For Example</b></p>
+            <p>Root and Gorse are both Level 0 Red Souls, and will both have to level up from Level 0 throughout the
+                campaign. However, while Root's Strength Stat is 3, Gorse's Strength stat is 10. This means that, at max
+                power, Root would have access to Level 1 Powers, and Gorse would have access to up to Level 3 powers
+                since he's currently level 0.</p>
+            <p>That said, once Gorse makes it to Level 2, then that means due to his 10 in his Strength stat, he would
+                have access to Level 5 powers should he choose to use them.</p>
+            <p>The table for stat number to Level can be found on the <a href="../../soul-powers/leveling-up/">Leveling
+                    Up</a> page!</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
