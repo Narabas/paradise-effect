@@ -15,7 +15,7 @@
   <!-- Scripts -->
   <script src="../../assets/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  
+
   <style>
     .lu {
       margin-bottom: 0;
@@ -27,19 +27,19 @@
   <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
     <i class="fa fa-bars"></i>
   </a>
-  
+
   <script>
     $(function () {
       $("#nav-placeholder").load("/nav.html", function () {
-        $("#soul-powers").attr("style","display:block;");
+        $("#soul-powers").attr("style", "display:block;");
         $("#leveling-up").addClass("selected");
       })
     });
   </script>
-  
+
   <div id="nav-placeholder">
   </div>
-  
+
   <div class="content">
     <div class="content-info wider">
       <h1>Leveling Up</h1>
@@ -56,12 +56,8 @@
     <br>
     <div class="content-info wider">
       <p>All characters will start at Level 0, but those with a higher stat in their corresponding Soul Class stat will
-        have those higher level powers available to them from the start. For example:</p>
-      <p style="opacity:0.7;">Gorse is a Red Soul, and has a Strength stat of 7. Although his official level will be 0
-        and he'll have to grow from that point just like everyone else, when he finds out his Soul Class, he'll be able
-        to use as much power, and in the same way as, a Level 3 Red Soul would, if his player chooses to utilize it.</p>
-      <p>That said, there is an elevated probability of something going wrong when you use higher level power at lower
-        levels, so use wisely!</p>
+        have some measure of higher level powers available to them from the start. More information on this can be found
+        on the <a href="../../soul-powers/drawbacks/">Drawbacks</a> page.</p>
       <p>Over the course of the campaign, your character will level up naturally if a post criteria is met during each
         Chapter. That is, if you post 10 or more posts during a single Chapter, then you can consider your character
         leveled up once the Chapter is complete and the interim has begun. There will be a designated channel for
