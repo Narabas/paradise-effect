@@ -21,16 +21,16 @@
   <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
     <i class="fa fa-bars"></i>
   </a>
-  
+
   <script>
     $(function () {
       $("#nav-placeholder").load("/nav.html", function () {
-        $("#gameplay").attr("style","display:block;");
+        $("#gameplay").attr("style", "display:block;");
         $("#mechanics").addClass("selected");
       })
     });
   </script>
-  
+
   <div id="nav-placeholder">
   </div>
   <div class="content">
@@ -49,7 +49,10 @@
         character-focused gameplay, it's recommended you try to fill it out truthfully as best you can. This means
         pouring more stat points into your character's natural strengths, and withholding points from their weak spots.
       </p>
-      <p>Every character has six stat brackets, which are as follows:</p>
+      <p>Every character has 25 stat points total to start with. You will gain stats over the course of the campaign, so
+        don't worry too much if your character's stats don't reflect as accurately as you would like right off the bat!
+      </p>
+      <p>The stat brackets are as follows:</p>
 
       <div style="column-count:2;">
         <p><b>STRENGTH</b><br>
@@ -73,6 +76,12 @@
           or charming your fellows. At best it can spare you some skepticism or help curb violence. At worst, it can get
           you killed or banished. Use wisely!</p>
       </div>
+
+      <p>Up until Chapter 1 begins, you'll be able to edit your stats as much as you'd like. However, once Chapter 1
+        begins, you will not be able to edit them again until the end of Chapter 1/the start of Interim 1, and the same
+        will be true for every subsequent Chapter and Interim. Additionally, once your Soul Class has been revealed, you
+        will not be able to edit your Soul Class-related stat (i.e Strength for Red Souls) again except to add earned
+        stats (via Level Ups or stats given by the GM during Chapters) to them.</p>
 
       <br>
       <h5>MODIFIERS (MODS)</h5>
