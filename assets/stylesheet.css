@@ -461,3 +461,38 @@ a {
   text-align:center;
   margin-bottom:30px;
 }
+
+
+.soul-info {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+@media only screen and (min-width:900px) {
+  .soul-info {
+      flex-direction: row;
+  }
+}
+
+.level {
+  display: flex;
+  color: #222;
+}
+
+.level ul {
+  list-style-type: square;
+}
+
+.level-label {
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.level-abilities {
+  width: 100%;
+  background: #d2d4c8;
+  padding: 10px;
+  margin: 10px 0;
+}
