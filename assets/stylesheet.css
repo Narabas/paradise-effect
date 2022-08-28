@@ -564,6 +564,10 @@ ul {
   }
 }
 
+#soulicon {
+  height:60px;
+}
+
 /* -- LEVELING UP PAGE -- */
 .lu {
   margin-bottom: 0;
